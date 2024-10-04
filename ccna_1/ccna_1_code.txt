@@ -1,0 +1,11 @@
+1, config basic switch/router:
+
+en
+conf t
+hostname [name device]
+enable [algo scr]  secret jeremysitlab
+username cisco [algo scr] secret ccna
+line con 0
+login local
+exec 30
+logging synch
